@@ -1,0 +1,14 @@
+\addtobeamertemplate{navigation symbols}{}{%
+  \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+\renewcommand{\footnotesize}{\fontsize{6pt}{11pt}\selectfont}
+
+\usepackage[font=small,labelfont=bf]{caption}
+
+\let\oldTexttt\texttt
+\renewcommand{\texttt}[1]{\oldTexttt{\colorbox{gray!25}{#1}}}
+
+\newcommand{\spacer}{\vspace{2.5em}}
