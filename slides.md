@@ -7,16 +7,25 @@ theme: Copenhagen
 colortheme: beaver
 date: \today
 fontsize: 14pt
-keywords: [vim, presentation]
+keywords: ['vim', 'presentation']
+
+# Preparation Notes:
+#   - [ ] Airplane Mode, Do Not Disturb
+#   - [ ] `$ toolbox enter latex; make watch`
+#   - [ ] `$ evince slides.pdf`
+#
+# screenkey works, but can be hard to follow...
+#   - `$ screenkey --persist`
+#   - `$ gvim`
 ---
 
-# Vim Editor
+# Presentation Setup
 
-![Editor GVim in Action](./assets/vim-in-action.png)
+![Screenshot: Left Panel Vim, Right Panel Slides](./assets/presentation-setup.png)
 
 # Overview
 
-Vim is a text editor, we will learn to use it to:
+Vim is a powerful text editor, we will learn to use it to:
 
 - Edit Text Efficiently
 
@@ -28,6 +37,24 @@ Long story short:
 
 |   I switched from Kate to Vim
 |   because I lost a bet.
+
+# Context Switch
+
+![Woodworking
+Workbench\footnote{https://unsplash.com/photos/HjFUevA2g1k}](./assets/nico-smit-HjFUevA2g1k-unsplash.jpg)
+
+* * * *
+
+![Have proper
+Tools\footnote{https://unsplash.com/photos/fqsT\_W5JwSc}](./assets/abby-savage-fqsT_W5JwSc-unsplash.jpg)
+
+* * * *
+
+![Have a Plan\footnote{https://unsplash.com/photos/dQf7RZhMOJU}](./assets/fleur-dQf7RZhMOJU-unsplash.jpg)
+
+* * * *
+
+![Go for it\footnote{https://unsplash.com/photos/maxl1X\_RJBY}](./assets/laura-ohlman-maxl1X_RJBY-unsplash.jpg)
 
 # First Step to Understand Vim
 
@@ -53,7 +80,9 @@ NORMAL, press `:`
 
 COMMAND, type `write<ENTER>`
 
-NORMAL, press `v`, exit `<ESC>`
+NORMAL, press `v`
+
+VISUAL, exit `<ESC>`
 
 # Quit Vim
 
@@ -194,7 +223,7 @@ The `.` command is a superfast way to repeat the last action.
 
 * * * *
 
-`wwcwthree<ESC>jjb.`
+`wwcethree<ESC>jjb.`
 
 \spacer
 
@@ -239,6 +268,8 @@ Repeat recorded automation: \
 
 Can be helpful if we have a one-time job at hand and search & replace won't do
 the job.
+
+\spacer
 
 For automation of regular/recurring jobs please stick to scripting.
 
