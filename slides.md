@@ -300,12 +300,13 @@ to change it.
 
 # Resources
 
-- Find this presentation at \
-  [github.com/unused/vim-for-everyone](https://github.com/unused/vim-for-everyone)
-
 - Run `$ vimtutor`
 
-- Find some Vim community
+- Find some Vim Community
 
 - Your very welcome to research, use or discuss my Vim configuration at \
   [github.com/unused/.vim](https://github.com/unused/.vim)
+
+# GitHub
+
+![github.com/unused/vim-for-everyone](./assets/github.png)
